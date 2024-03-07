@@ -26,7 +26,7 @@ services:
 
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: demo
+      MYSQL_DATABASE: demo # mettre ici le nom de la base de données
       MYSQL_USER: ronan
       MYSQL_PASSWORD : root
 
