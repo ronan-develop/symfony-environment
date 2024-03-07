@@ -29,8 +29,20 @@ services:
       MYSQL_DATABASE: demo
       MYSQL_USER: ronan
       MYSQL_PASSWORD : root
-    
+
     ports:
       - 3307:3306
-
 #< database
+
+#>PhpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_HOST: database
+      PMA_USER: root
+      PMA_PASSWORD: password
+    ports:
+      - 8081:80
+#> PhpMyAdmin
