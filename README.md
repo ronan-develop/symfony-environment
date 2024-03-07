@@ -6,5 +6,8 @@ commands :
 
 - lists images : `sudo docker image ls`
 - lists container : `sudo docker ps`
-- Builds, (re)creates, starts, and attaches a service : `sudo docker compose up -d`
+- lists images :  `sudo docker image ls`
+- Builds, (re)creates, starts, attaches a service : `sudo docker compose up -d`
 - Stop and Remove container : `sudo docker compose down`
+- remove images : `docker image rm {id}`
+- remove container : `docker rm {id container}`
