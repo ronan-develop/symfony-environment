@@ -11,6 +11,8 @@ commands :
 - Stop and Remove container : `sudo docker compose down`
 - remove images : `docker image rm {id}`
 - remove container : `docker rm {id container}`
+- lister les networks : `opoci_tools_opoci-network`
+- run de conatiner : `docker run --name {nom de l'image} --rm`
 
 connecting to the mysql server :
 
